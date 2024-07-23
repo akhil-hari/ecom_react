@@ -1,4 +1,5 @@
 import { ShoppingCartIcon } from '@heroicons/react/24/outline'
+import ShopLogo from '../assets/logo.png';
 
 // const navigation = [
 //   { name: 'Dashboard', href: '#', current: true },
@@ -22,7 +23,7 @@ export default function NavBarComponent() {
             <div className="flex flex-shrink-0 items-center">
               <img
                 alt="ShoppingHub"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                src={ShopLogo}
                 className="h-8 w-auto"
               />
             </div>
